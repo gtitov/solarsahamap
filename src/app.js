@@ -21,7 +21,7 @@ const INITIAL_VIEW_STATE = {
 // length of zoomRadius must be equal to maxZoom - minZoom + 1
 const zoomRadius = [200000, 100000, 50000, 25000, 10000, 10000]
 
-const baseURL = "http://autolab.geogr.msu.ru/solarsaha"
+const baseURL = "https://shrouded-temple-16131.herokuapp.com"
 
 export default class App extends Component {
   state = {
